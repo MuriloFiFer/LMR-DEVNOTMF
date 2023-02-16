@@ -11,7 +11,7 @@
 <body>
     <h2>Página de Cadastro</h2>
     <form>
-        <label for="pmail" title="Mail">E-mail:</label>
+        <label for="pmail" title="Mail">E-mail:</label> 
         <input type="text" name="e-mail" id="pmail" />
         <label for="psenha" title="Senha">Senha:</label>
         <input type="password" name="senha" id="psenha" />
@@ -21,8 +21,14 @@
         <label for="psnome" title="snome">Sobrenome:</label>
         <input type="text" name="snome" id="psnome" placeholder="Seu sobrenome" />
         <br />
-        <input type="submit" value="" Enviar" />
-        <input type="reset" value="" Limpar />
+        <label for="psexo" title="sexo">Sexo:</label><br>
+        <INPUT TYPE="RADIO" NAME="sexo" VALUE="f"> Feminino <br>
+        <INPUT TYPE="RADIO" NAME="sexo" VALUE="m"> Masculino <br> <br>
+
+
+        <input type="submit" value="Enviar os dados" /> <!--cirando botão enviar dados-->
+        <input type="reset" value="Limpar os dados" /> <!--criando botão limpar dados-->
+        <INPUT TYPE="button" VALUE="Voltar" onclick="parent.location='formularios.html' "> <!-- criando botão voltar pargina "formularios"-->
 
     </form>
 
