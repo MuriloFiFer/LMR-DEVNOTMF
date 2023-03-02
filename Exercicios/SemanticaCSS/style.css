@@ -1,0 +1,42 @@
+body {
+    /* background-color: darkgray; /* cor do fundo do body */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 11%, rgba(0, 212, 255, 1) 100%);
+}
+
+#menu {
+    /* Estilizando o menu que está no "Header */
+    width: 100%;
+    /* largura */
+    height: 60px;
+    /* altura */
+    background-color: red;
+    /* cor do fundo*/
+
+}
+
+.linkMenu {
+    color: aliceblue;
+    /* cor do link */
+    font-size: 2em;
+    /* tamanho da letra */
+    margin-left: 20px;
+    /* tamanho da margem esqueda */
+    margin-right: 20px;
+    /* tamanho da margem direita */
+    text-decoration: none;
+    /* estilização da letra (underline, riscado.etc)
+     (underline , overline , line-through ou blink */
+}
+
+#menu img {
+    height: 50px;
+    margin-left: 02%;
+    margin-top: 0.1%;
+}
+
+.parte1 img {
+    height: 100px;
+    margin-top: 150%;
+
+}
