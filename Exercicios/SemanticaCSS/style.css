@@ -42,8 +42,18 @@ body {
 
 }
 #bodyLogin {
-  background-color: cornflowerblue;
+    background: rgb(7,66,207);
+    background: radial-gradient(circle, rgba(7,66,207,1) 2%, rgba(7,66,207,1) 30%, rgba(9,105,121,1) 91%);
+  margin-top: 15%;
+  margin-left: 40%;
 }
+#bodyLogin form img{
+    margin-top: 10%;
+    margin-left: 0;
+}
+
+ 
+
 
 
 
