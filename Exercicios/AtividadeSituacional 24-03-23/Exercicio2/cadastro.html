@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="bodyCadastro">
+
+    <h2>Página de Cadastro</h2>
+    <form>
+
+        <label for="pnome" title="nome">Nome:</label>
+        <br />
+        <input type="text" name="nome" id="pnome" placeholder="Seu nome" />
+        <br />
+        <label for="prg" title="snome">RG:</label>
+        <br />
+        <input type="text" name="snome" id="prg" placeholder="Seu RG" />
+        <br />
+        <label for="ppai" title="spai">Pai:</label>
+        <br />
+        <input type="text" name="spai" id="ppai" placeholder="Nome Pai" />
+        <br />
+        <label for="pescolaridade" title="sesc">Selecionar:</label>
+        <br />
+        <input type="text" name="spai" id="pesc" placeholder="Sua Escolaridade" />
+        <br />
+        <div id="esco">
+            Escolaridade: </div> <br /> <SELECT NAME="faixaidade">
+
+
+            <OPTION VALUE="3a10"> Ensino Medio Incompleto
+            <OPTION VALUE="11a25"> Ensino Medio Completo
+            <OPTION VALUE="26a35"> Superior Incompleto
+            <OPTION VALUE="36a55"> Superior Completo
+        </SELECT>
+        </div>
+        <br />
+
+        <input type="submit" value="Cadastrar" /> <!--cirando botão enviar dados-->
+        <input type="reset" value="Limpar os dados" /> <!--criando botão limpar dados-->
+        <INPUT TYPE="button" VALUE="Voltar" onclick="parent.location='index.html' ">
+        <!-- criando botão voltar pargina "formularios"-->
+        <br>
+    </form>
+
+</body>
+
+</html>
