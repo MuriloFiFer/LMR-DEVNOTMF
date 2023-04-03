@@ -16,7 +16,7 @@
     width: 50%;
     font-size: 22px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) { /*  colocar responsividade */
     .banner { height: 400px; padding: opx 20px}
     .banner .texto {font-size: 24px;}
     .banner h1 { font-size: 28px;}

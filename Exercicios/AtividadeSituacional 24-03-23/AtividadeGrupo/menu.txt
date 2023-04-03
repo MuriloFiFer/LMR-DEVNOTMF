@@ -1,0 +1,18 @@
+ <div class="navSobre">
+        <img src="img/starbucks-nav-logo.svg" alt="Logo Starbuckas">
+        <div class="links">
+            <a href="home.html">HOME</a>
+            <a href="">|</a>
+            <a href="encontreUmaLoja.html">ENCONTRE UMA LOJA</a>
+        </div>
+
+
+        class
+
+        .navSobre {
+    background-color: rgb(4, 58, 16);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
