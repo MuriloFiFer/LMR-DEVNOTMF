@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.novidades {
+    margin-top: 20px;
+    background-color: rgb(132, 194, 202);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.primeiro {
+    margin-top: 20px;
+    height: 600px;
+    background-color: rgb(132, 194, 202);
+    display: flex;
+    align-content: space-evenly;
+}
+
+.primeiro img {
+    height: 100%;
+    width: 50%;
+}
+
+.texto1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.segundo {
+    margin-top: 20px;
+    height: 400px;
+    background-color: rgb(132, 194, 202);
+    display: flex;
+    align-content: space-evenly;
+}
+
+.segundo img {
+    height: 100%;
+    width: 50%;
+}
+
+.texto2  {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.terceiro {
+    margin-top: 20px;
+    height: 400px;
+    background-color: rgb(132, 194, 202);
+    display: flex;
+    align-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.terceiro img {
+    height: 100%;
+    width: 50%;
+}
+
+.texto3  {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
