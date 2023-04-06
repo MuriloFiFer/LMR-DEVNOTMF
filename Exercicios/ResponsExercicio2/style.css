@@ -90,12 +90,13 @@ header img{
 @media screen and (max-width: 800px){ /* responsividade */
     .menu{   display: none;   }
     .hamb{ display: inline;  }
+    .parte1 {height: 100vh;}
     .parte1 .titulo{  width: 100%;   }
-    .titulo h1{   font-size: 60px;  }
-    .titulo h2{  font-size: 30px;  }
+    .parte1 .titulo h1{   font-size: 40px;  }
+    .parte1 .titulo h2{  font-size: 20px;  }
     .parte2{    width: 100%;   }
     .parte2 h1{  font-size: 40px;  }
     .parte3{     display: inline;  }
-    .parte img{   width: 100%;    }
-    .parte .texto{    width: 100%;    }
+    .parte3 img{   width: 100%;    }
+    .parte3 .texto{    width: 100%;    }
  }
