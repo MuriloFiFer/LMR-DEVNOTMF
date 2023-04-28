@@ -1,0 +1,8 @@
+criar um site utilizando componente do bootstrap
+todas as páginas terão o mesmo cabeçalho e o mesmo rodape
+
+-uma página deve ter alguns elementos e um carrossel;
+-uma página deve ter 12 cards, divididos em 3 linhas;
+-uma página deve ter um formulário de contato;
+-uma página deve ter um formuário de login;
+-uma página deve ter um formulário de cadastro;
