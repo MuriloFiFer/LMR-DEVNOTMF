@@ -12,4 +12,14 @@ function DiaSemana(){
 
     document.write(Semana[Dia]);
     document.write('<br>',Hoje);
+
+}
+function ColorirNome(){
+    var Cor= new Array('Black', 'Magenta', 'Gren', 'Blue', 'Red', 'Yellow', 'Silver');
+    var nome = document.getElementById('pNome').value;
+
+    for(let i=0; i<=Cor.length; i++){
+    document.write(Nome.fontcolor(Cor[i]) + '<br>');
+}
+
 }
