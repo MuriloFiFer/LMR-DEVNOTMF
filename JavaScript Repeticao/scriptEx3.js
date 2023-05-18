@@ -6,13 +6,23 @@ function MostrarNome(){
     
     }
 
-    function MostrarCalc(){
-    let  numero1 = document.getElementById('MyCalc').pnumber1.value;
-    let numero2 = document.getElementById('MyCalc').pnumber2.value;
-    var numeroTotal = (numero1 + numero2);
-
-    alert(' Seu numero' +numeroTotal);
-
-    }
+    
+    let pvalor1;
+    let pvalor2;
+    let resultado;
+        function somar(){
+          
+            pvalor1 = document.getElementById('MyCalc').pvalor1.value;
+            pvalor2 = document.getElementById('MyCalc').pvalor2.value;
+            if(pvalor1==""||pvalor2==""){
+                alert("Preencha todos os campos");
+            }else{
+                resultado = parseInt(pvalor1) + parseInt(pvalor2);
+                alert("O resustado é" +resultado);
+            }
+              //parseInt para transformar texto em numero
+          
+        }
+    
         
     
