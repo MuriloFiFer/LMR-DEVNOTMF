@@ -1,0 +1,23 @@
+.carrossel {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+
+}
+
+#img1 {
+   
+    height: 350px;
+}
+
+#img2 {
+  
+    height: 350px;
+}
+
+#img3 {
+    
+    height: 350px;
+}
+
+
