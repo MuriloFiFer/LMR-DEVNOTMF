@@ -28,13 +28,13 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina2.html">Pagina 2</a>
+                        <a class="nav-link" href="pagina2.html">Ingressos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina3.html">Pagina 3</a>
+                        <a class="nav-link" href="pagina3.html">Formulário</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina4.html">Pagina 4</a>
+                        <a class="nav-link" href="pagina4.html">SignUp</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -47,9 +47,15 @@
 </header>
 
     <!-- acertar img do backgroud -->
-<body background="img/backgroud3.jpeg">
-
+<body>
+    <div class="text1">
+       
+        <h3>VEJA O QUE A GALERA CURTIU</h3>
+        
+       
+    </div>
 <div class="container">
+  
     <!--inicio do carrossel-->
        <div id="carouselExampleIndicators" class="carousel slide" >
         <div class="carousel-indicators">
@@ -66,13 +72,16 @@
                 <div class="carousel-inner" style="width: 100vh;" >
                     <div class="carousel-item active">
                         <img src="img/images1.jfif"  alt="..." id="img1">
+                        <li id="liCard">Coldplay - Morumbi</li>
                     </div>
 
                     <div class="carousel-item">
                         <img src="img/cblevent.jfif"  alt="..." id="img2">
+                        <li id="liCard">Final CBLOL - Maracanã</li>
                     </div>
                     <div class="carousel-item">
                         <img src="img/rockimg.jfif" alt="..." id="img3">
+                        <li id="liCard">Metallica - Mineirão</li>
                     </div>
                 </div>
 
@@ -96,36 +105,47 @@
     </br>
     </br>
     <h1>--Próximos eventos--</h1>
+    <br>
+
     <div class="cards">
     <div class="card" style="width: 18rem;">
-        <img src="img/RBD.jpg" class="card-img-top" alt="..." id="imgCard1" style="height: 300px;">
-        <div class="card-body">
-          <p class="card-text">Rebelde - RBD</p>
-          <p class="card-test">18/11/2023</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="img/rhcp.jpg" class="card-img-top" alt="..." id="imgCard2" style="height: 300px">
+        <img src="img/rhcp.jpg" class="card-img-top" alt="..." id="imgCard1" style="height: 300px;">
         <div class="card-body">
           <p class="card-text">Red Hot Chili Peppers - RHCP</p>
           <p class="card-text">10/11/2023</p>
         </div>
       </div>
 
-    </div>
+  
+    <div class="card" style="width: 18rem;">
+        <img src="img/RBD.jpg" class="card-img-top" alt="..." id="imgCard2" style="height: 300px;">
+        <div class="card-body">
+          <p class="card-text">Rebelde - RBD</p>
+          <p class="card-test">18/11/2023</p>
+        </div>
+      </div>
+         </div>
 
  
 
+<footer>
+    <br>
+    <br>
+    <div class="card text-bg-dark mb-3" style="max-width: 18rem;" id="cardFooter">
+  <div class="card-header">ATENÇÃO!</div>
+  <div class="card-body">
+    <h5 class="card-title">Pré venda disponivel em breve.</h5>
+    <p class="card-text">Escolha seu evento e garanta seu ingresso para os próximos eventos entrando na fila para compra <a href="pagina2.html" class="card-link">aqui.</a></p>
     
+  </div>
+</div>
 
-
+</footer>
 
 </body>
 
-<footer>
-    <br>
-</footer>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
