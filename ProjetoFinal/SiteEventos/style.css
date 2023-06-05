@@ -4,6 +4,8 @@ body{
 background: linear-gradient(90deg, rgba(4,49,18,1) 4%, rgba(2,123,39,1) 51%, rgba(4,49,18,1) 96%);
 
 }
+
+
 .text1{
     margin-top: 10%;
     margin-left: 35%;
@@ -53,5 +55,10 @@ h1{
     height: 200px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
 
 
