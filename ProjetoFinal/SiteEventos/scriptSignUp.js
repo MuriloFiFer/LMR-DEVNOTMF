@@ -39,10 +39,6 @@ function Enviar() {
 
  
   
-    //  exibir os dados no console
-    console.log("Nome: " + nome);
-    console.log("Endereço: " + endereco);
-    console.log("Email: " + email);
 
   
     // Se chegou até aqui, todos os campos foram preenchidos corretamente
