@@ -36,12 +36,15 @@ function Enviar() {
       return false;
     }
   
+
  
   
 
   
     // Se chegou até aqui, todos os campos foram preenchidos corretamente
-    alert("Formulário enviado com sucesso!");
+    alert("Cadastro realizado com sucesso!");
+    alert( "Seu nome:"+ nome);
+    alert("seu email:"+email)
     return true;
   }
   
