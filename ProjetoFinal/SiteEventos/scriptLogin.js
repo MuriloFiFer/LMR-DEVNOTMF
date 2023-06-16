@@ -20,7 +20,6 @@ function Enviar() {
   
 
   
-    // Se chegou até aqui, todos os campos foram preenchidos corretamente
     alert("Login realizado com sucesso!");
     alert( "Seu email:" + email);
       return true;

@@ -41,7 +41,6 @@ function Enviar() {
   
 
   
-    // Se chegou até aqui, todos os campos foram preenchidos corretamente
     alert("Cadastro realizado com sucesso!");
     alert( "Seu nome:"+ nome);
     alert("seu email:"+email)
